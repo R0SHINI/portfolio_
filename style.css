@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background-color: bisque;
+    padding-left:100px;
+    padding-right: 100px;
+}
+#navebar{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.navlinks
+{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+ li{
+    margin: 20px;
+}
+
+.name_container
+{
+   font-weight:600;
+   font-size:24px;
+   line-height: 36px;
+   color: blue;
+}
+#home
+{
+    display:flex;
+    justify-content: space-between;
+    margin-top:100px;
+}
+.home_left{
+    width:50%;
+}
+.home_right{
+    width:50%;
+    text-align: center;
+}
+.web_designer
+{
+    font-size:110px;
+    font-weight:bolder ;
+    color: blue;
+    line-height: 116px;
+
+}
+.home_hello
+{
+    font-size:28px;
+    color: blue;
+
+}
+.resume
+{
+    
+    margin-top: 50px;
+}
+.resume a
+{ 
+    text-decoration: none;
+    color:black;
+    background-color: yellow;
+    padding:10px;
+
+}
+.profile{
+    border-radius: 364px 256px 364px 364px;
+
+}
+#about{
+    font-size: 20px;
+}
+.about_para{
+    width: 100%;
+    color: blue;
+}
+.brown_head{
+    color: brown;
+    font-weight:800 ;
+    font-size:100px ;
+    line-height:116px ;
+    margin-bottom:20px ;
+}
+.about_exp{
+    margin-top: 80px;
+    padding-left:200px ;
+    color:blue;
+}
+.about exp li{
+    margin-top: 30px;
+}
+#skills
+{
+    font-size: 20px;
+}
+.skill_item{
+    border:solid 4px;
+    width:350px;
+    padding:15px;
+    text-align: center;
+}
+.skill_container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.detail_con
+{  
+   justify-content: space-between;
+
+color: blue;
+
+
+}
+.image
+{ display: flex;
+    width: 50%;
+    
+}
